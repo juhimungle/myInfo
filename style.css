@@ -58,33 +58,9 @@
   letter-spacing: 1.2px;
 }
 
-.skills_section li {
-  font-size: 25px;
-  line-height: 30px;
-  letter-spacing: 1.2px;
-/* justify-content: space-between; */
-color: royalblue;
 
-}
-.ul-right,
-.ul-left,
-h2 {
-  font-size: 35px;
-  font-weight: bold;
-  /* margin-bottom: 30px; */
-}
-.ul-right {
-  display: flexbox;
-  float: left;
-  clear: both;
-  /* position: relative; */
-}
 
-.ul-left {
-  display: block;
-  float: right;
-  /* align-items: flex-end; */
-}
+
 .skills_section h3 {
   font-size: 40px;
   font-weight: bold;
@@ -94,7 +70,40 @@ h2 {
 .skills_section {
   margin-bottom: 40%;
 }
-li{
+
+.field1{
+  float: left;
+  width: 48%;
 
 }
-
+.field2{
+  float: right;
+  width: 48%;
+}
+legend {
+  border: 1px solid;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: royalblue;
+  color: white;
+  font-size: 35px;
+}
+li {
+  width: auto;
+  margin: 5px;
+  padding: 15px;
+  border: 2px solid;
+  border-radius: 10px;
+  
+  text-align: start;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  color: royalblue;
+}
+fieldset{
+  
+  border: none;
+  margin-bottom: 40px;
+}
