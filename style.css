@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.container {
+  background-color: aliceblue;
+  height: 100%;
+  border: 8px solid;
+  overflow: hidden;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.image_container {
+  border-radius: 60%;
+  overflow: hidden;
+}
+
+.image_container img {
+  width: 300px;
+  height: 320px;
+}
+
+.top_section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.top_section h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #1d1e4c;
+}
+.top_section h4 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1d1e4c;
+  text-align: end;
+}
+.about_section {
+  margin-top: 50px;
+}
+
+.about_section h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: midnightblue;
+}
+
+.about_section p {
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
+
+.skills_section li {
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+/* justify-content: space-between; */
+color: royalblue;
+
+}
+.ul-right,
+.ul-left,
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  /* margin-bottom: 30px; */
+}
+.ul-right {
+  display: flexbox;
+  float: left;
+  clear: both;
+  /* position: relative; */
+}
+
+.ul-left {
+  display: block;
+  float: right;
+  /* align-items: flex-end; */
+}
+.skills_section h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: midnightblue;
+}
+.skills_section {
+  margin-bottom: 40%;
+}
+li{
+
+}
+
